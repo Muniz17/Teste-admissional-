@@ -1,0 +1,33 @@
+Geral:
+
+Use nomes mais descritivos, por exemplo, substitua "double taxa" por "double taxaDeJuros".
+Adicione validações, principalmente ao lidar com métodos set para garantir que os valores estejam dentro dos limites desejados.
+Classe Cliente:
+
+Remova o construtor super(), já que o construtor padrão super() não é necessário a menos que a classe estenda outra classe.
+Adicione os métodos toString(), equals(), e hashCode(), pois eles facilitam a representação do objeto.
+Classe Empresa:
+
+Remova o construtor vazio.
+Use nomes mais descritivos, por exemplo, substitua "double taxa" por "double taxaDeJuros".
+Adicione validações nos métodos set, se necessário.
+Classe Produto:
+
+Remova o construtor vazio.
+Adicione validações nos métodos set, se necessário.
+Classe Usuario:
+
+Use nomes mais descritivos para métodos e variáveis.
+Adicione validações nos métodos set, se necessário.
+Classe Vendas:
+
+Use tipos primitivos em vez de wrapper, se possível.
+Use convenções de nomenclatura em CamelCase para o nome das variáveis e métodos.
+Classe Main:
+
+Adicione comentários para melhor entendimento do código.
+Implemente tratamento de erros, por exemplo, verificando se os valores da entrada do usuário são válidos.
+Faça a extração de métodos para tornar o código mais modular.
+Melhore o encapsulamento de dados.
+Utilize constantes em vez de valores literais para representar opções, como escolhas de menu.
+Melhore o encapsulamento de dados onde apropriado.

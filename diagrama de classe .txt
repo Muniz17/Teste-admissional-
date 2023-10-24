@@ -1,0 +1,45 @@
+diagrama de classe 
+---------------------------------------
+|               Produto               |
+---------------------------------------
+| - nome: String                       |
+| - dose: float                        |
+| - preco: float                       |
+---------------------------------------
+| + Produto(nome: String,              |
+|           dose: float,               |
+|           preco: float)              |
+---------------------------------------
+
+---------------------------------------
+|              Empresa                |
+---------------------------------------
+| - produtos: List<Produto>            |
+| - totalVendas: float                 |
+| - comissao: float                    |
+| - carrinho: List<ItemCarrinho>       |
+---------------------------------------
+| + Empresa()                          |
+| + adicionarProduto(nome: String,     |
+|                    dose: float,      |
+|                    preco: float)     |
+| + listarProdutos()                   |
+| + removerProduto(indice: int)        |
+| + adicionarAoCarrinho(indiceProduto: |
+|                        int,           |
+|                        quantidade: int)|
+| + calcularTotalCarrinho()            |
+| + calcularComissao()                 |
+| + realizarVenda()                    |
+| + getTotalVendas()                   |
+---------------------------------------
+
+
+---------------------------------------
+|           ItemCarrinho              |
+---------------------------------------
+| - produto: Produto                   |
+| - quantidade: int                    |
+---------------------------------------
+| + ItemCarrinho(produto: Produto,     |
+|                quantidade: int)       |
